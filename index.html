@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="container">
+    <header class="cabecalho">
+        <nav class="menuNavegacao">
+            <div class="divTitulo">
+                <h1 class="titulo">Weartake</h1>
+            </div>
+            <div class="botoesNav">
+                <button class="botaoNav">Todos</button>
+                <button class="botaoNav">Acessórios</button>
+                <button class="botaoNav">Calçados</button>
+                <button class="botaoNav">Camisetas</button>
+            </div>
+        </nav>
+    </header>
+    <main class="ConteudoPrincipal">
+        <div class="secaoCards">
+            <ul class="listaCards">
+             
+            </ul>
+        </div>
+        <div class="secaoCarrinho">
+            <div class="pesquisa">
+                <input class="textoPesquisa" placeholder="Digite aqui sua pesquisa" type="text">
+                <button class="botaoPersquisar">Pesquisar</button>
+            </div>
+            <h2 class="tituloCarrinho">Carrinho de Compras</h2>
+            <ul class="listaCarrinho">
+               
+            </ul>
+            <div class="separador">
+                <p class="Quantidade">Quantidade de Itens:</p>
+                <span class="quantItensCarrinho"></span>
+            </div>
+            <div class="separador">
+                <p class="Total">Valor Total:</p>
+                <span class="valorCompra"></span>
+            </div>
+            <button class="finalizarCompra">FINALIZAR COMPRA</button>
+        </div>
+   </main>
+</body>
+</html>

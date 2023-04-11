@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+body{
+    font-family: 'Inter', sans-serif; ;
+    width: 1200px;
+    background-color: #F5F5F5;
+}
+.cabecalho{
+    border-bottom:solid 1px #828282;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+.menuNavegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botoesNav{
+    width: 300px;
+}
+.divTitulo{
+    width: 900px;
+}
+.botaoNav{
+    color: #333333;
+    border: #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 5px;
+}
+.botaoNav:hover{
+    color: #F5F5F5;
+    background-color: #37268C ;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.ConteudoPrincipal{
+    display: flex;
+    justify-content: space-between;
+}
+.secaoCards{
+    width: 900px;
+}
+.secaoCarrinho{
+    width: 300px;
+}
+.card{
+    width: 255px;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    border: solid 2px #F5F5F5;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    background-color: #F5F5F5;
+}
+.card:hover{
+    border: solid 2px #2E245E;
+    transition: 0.5s;
+}
+.imgcard{
+    align-content: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+}
+.tag{
+    background-color: #37268C;
+    padding: 5px;
+    color: #F5F5F5;
+}
+.valorCard{
+    color: #37268C;
+    font-weight: bold
+}
+.BotaoCard{
+    border: solid 1px #F5F5F5;
+    background-color: #F5F5F5;
+}
+.BotaoCard:hover{
+    border-bottom: solid 1px #2E245E;
+    color: #37268C;
+   
+}
+.listaCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textoPesquisa{
+    margin-top: 20px;
+    border: solid #F5F5F5;
+    padding: 5px;
+    width: 204px;
+}
+.botaoPersquisar{
+    background-color: #37268C;
+    border: solid #37268C;
+    color: #F5F5F5;
+    padding: 5px;
+}
+.tituloCarrinho{
+    background-color: #37268C;
+    color: #F5F5F5;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3px;
+}
+.cardCarrinho{
+    list-style-type: none;
+    display: flex;
+}
+.imgCarrinho{
+    width: 100px;
+    height: 120px;
+}
+.nomeCarrinho{
+    font-weight: bold
+}
+.remover{
+    border: solid 1px #F5F5F5;
+    background-color: #F5F5F5;
+}
+.valorItem{
+    color: #37268C;
+    font-weight: bold
+}
+.remover:hover{
+    border-bottom: solid 1px #37268C;
+    color: #37268C;
+}
+.listaCarrinho{
+    background-color: #F5F5F5;
+    height: 370px;
+    overflow-y: auto;
+}
+.separador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #F5F5F5;
+}
+.finalizarCompra{
+    margin-top: 10px;
+    padding: 10px;
+    color: #F5F5F5;
+    border:solid 1px #37268C;
+    background-color: #37268C;
+}
+.finalizarCompra:hover{
+    background-color: #F5F5F5;
+    color: #37268C;
+    border:solid 1px #37268C;
+    transition: 0.5s;
+}
